@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zona Gamer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <header>
+    <h1 class="title">Zona Gamer</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#twitch-section">Stream</a>
+      <a href="#">Videos</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Bienvenido al campo de batalla 🎮</h2>
+      <p>Contenido gamer, streams y pura energía. ¡Vamos con todo!</p>
+      <button id="joinBtn">Únete al team</button>
+    </section>
+
+    <section id="twitch-section" class="twitch-container">
+      <h2>🔴 En vivo en Twitch</h2>
+      <div id="twitch-embed"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Zona Gamer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
